@@ -83,6 +83,9 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         wave: "wave 1.5s infinite",
       },
+      fontFamily: {
+        limelight: ['fontCustom', 'sans-serif'],
+       },
     },
   },
   plugins: [require("tailwindcss-animate")],

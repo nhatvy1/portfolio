@@ -106,7 +106,8 @@ html {
   border-left: 5px solid #ccc;
 }
 
-.blog-post ul, ol {
+.blog-post ul,
+ol {
   margin: 0 0 1.5em 1.5em;
 }
 
@@ -115,7 +116,7 @@ html {
 }
 
 .blog-post code {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background-color: #f4f4f4;
   padding: 2px 4px;
   border-radius: 4px;
@@ -123,7 +124,7 @@ html {
 }
 
 .blog-post pre {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background-color: #f4f4f4;
   padding: 10px;
   border-radius: 4px;
@@ -150,6 +151,13 @@ html {
   height: 1px;
   background: #ccc;
   margin: 2em 0;
+}
+
+@font-face {
+  font-family: "fontCustom";
+  font-style: regular;
+  font-weight: 400;
+  src: url("/fonts/PlaywriteAT-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 @media (max-width: 768px) {
