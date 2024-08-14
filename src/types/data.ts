@@ -100,6 +100,6 @@ export interface Data {
   education: Education[];
   certifications: Certification[];
   hobbies: string[];
-  testimonials: Testimonial[];
+  technologies: Testimonial[];
   visual: Visual;
 }

@@ -15,7 +15,6 @@ import {
   EnvelopeClosedIcon,
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
   GlobeIcon,
 } from "@radix-ui/react-icons";
 import { Avatar } from "@/components/ui/avatar";
@@ -206,15 +205,15 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* technologies Section */}
       <section
-        id="testimonials"
+        id="technologies"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
-        <h2 className="font-bold text-3xl md:text-5xl mb-12">Testimonials</h2>
+        <h2 className="font-bold text-3xl md:text-5xl mb-12">Technologies</h2>
 
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-          {data.testimonials.map((t) => (
+          {data.technologies.map((t) => (
             <Card className="p-6 text-left" key={t.id}>
               <blockquote className="font-medium lg:text-og">
                 &ldquo;{t.feedback}.&rdquo;
